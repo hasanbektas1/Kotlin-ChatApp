@@ -9,20 +9,18 @@
 - Firebase
 - Fragment
 - Navigation
-- RecyclerViwe
+- RecyclerView
 - OptionsMenu
 
 
  İlk olarak https://firebase.google.com/ sitesine girip Firebase platformuna Gmail ile ücretsiz kayıt oluyoruz.
  Authentication ile kullanıcı giriş işlemleri, Firestore database ile veri kayıt edip sonra uygulamamızda göstermek gibi işlemlerimizi yapabilmek için.
- Uygulamamıza firebase entegrasyon işlemlerimizi tamamladıktan sonra layout görünümlerini oluşturuyoruz.
- Oluşturduğumuz bu fragmentleri **navigation** ile kullanmak için gerekli iplementationlarını ekliyoruz.
+ Uygulamamıza firebase entegrasyon işlemlerimizi tamamladıktan yeni fragmentler yaratıp sonra layout görünümlerini oluşturuyoruz.
+ Oluşturduğumuz fragmentleri **navigation** ile kullanmak için gerekli iplementationlarını ekliyoruz.
  Daha sonra fragmentlarımızı navigationa ekleyip hangi ekrandan hangi ekrana gidilecek ise onları aksiyon olarak ekliyoruz.
- Kod kısmına geçicek olursak öncelikle   ``` private lateinit var auth :FirebaseAuth ``` diyip öncelikle bi obje oluştuıruyoruz sonra onCreate fonksiyonumuz içerisinde initialize edip kullanıma başlar hale getiriyoruz
+ Kod kısmına geçicek olursak öncelikle   ``` private lateinit var auth :FirebaseAuth ``` diyip öncelikle bi obje oluşturuyoruz sonra **onCreate** fonksiyonumuz içerisinde initialize edip kullanıma başlar hale getiriyoruz
  
  Fragmentlerde genel olarak kodlarımızı **onViewCreated** fonksiyonu altında yani görünümler oluşturulduktan sonra yazıyoruz ki programımızda aksaklıklar olmasın.
- 
- 
  
   ```
   val currentuser = auth.currentUser
