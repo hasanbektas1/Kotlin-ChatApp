@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119317675670",
+    "project_id": "kotlinchatapp-e62aa",
+    "storage_bucket": "kotlinchatapp-e62aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119317675670:android:ac5ec93fbb95659dd6ccb7",
+        "android_client_info": {
+          "package_name": "com.hasanbektas.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119317675670-3aglefgld3e6pinv3jsumdqge8tqo7cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc_HsOIjZm--PvvG8vrb9MXyfoqdAiu9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119317675670-3aglefgld3e6pinv3jsumdqge8tqo7cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
