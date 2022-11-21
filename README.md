@@ -31,7 +31,7 @@
             Navigation.findNavController(view).navigate(action)
         }
    ```
-   Daha önce giriş yapılmış ise diret olarak giriş sayfasını geçip yazışma sayfasına geçiyoruz, giriş yapılmamış ise login sayfasında kullanıcı giriş veya kullanıcı oluşturma adımlarını yazıyoruz.
+   Daha önce giriş yapılmış ise direkt olarak yazışma sayfasına geçiyoruz, giriş yapılmamış ise giriş sayfasında kullanıcı giriş veya kullanıcı oluşturma adımlarını yazıyoruz.
    
    ```
        binding.loginButton.setOnClickListener {
@@ -158,11 +158,3 @@ Giriş ekranını geçtikten sonra yazışma ekranında güncel kullanıcı **Se
     }
     ```
     
-    
-
-
-
- 
- 
-
-
