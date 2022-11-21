@@ -108,6 +108,7 @@ Giriş ekranını geçtikten sonra yazışma ekranında güncel kullanıcı **Se
  
  Verileri yazdıktan sonra recyclerView ekranında göstermek üzere verilerimizi okuyoruz.
  Bunun için **loadData()** fonksiyonumuzu yazıyoruz
+ 
  ```
   private fun loadData(){
 
@@ -141,11 +142,11 @@ Giriş ekranını geçtikten sonra yazışma ekranında güncel kullanıcı **Se
         }
     }
     
-    ```
+ ```
     
    Son olarak yazışma ekranından çıkıp giriş ekranına dönmek için **onOptionsItemSelected** ile çıkış kodlarımızı yazıyoruz
     
-    ```
+ ```
        override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         if (item.itemId == R.id.signout){
@@ -157,5 +158,5 @@ Giriş ekranını geçtikten sonra yazışma ekranında güncel kullanıcı **Se
         }
         return super.onOptionsItemSelected(item)
     }
-    ```
+ ```
     
