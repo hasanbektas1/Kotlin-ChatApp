@@ -56,7 +56,7 @@
         }
    ```
    
-   Yukarıda görüldüğü ``` signInWithEmailAndPassword ``` ile daha önce kayıt olunmuş bir kullanıcı bilgileri ile giriş yapılmak için.
+   Yukarıda görüldüğü ``` signInWithEmailAndPassword ``` ile daha önce kayıt olmuş bir kullanıcı bilgileri ile giriş yapılmak için.
    
    ```
     binding.signButton.setOnClickListener {
